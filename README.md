@@ -26,6 +26,9 @@ Restaurant data can answer more than "where should I eat?". Bengaluru Bites lets
 - PDF executive report and CSV exports
 - My Space: local favorites, searches and comparisons
 - Methodology, limitations and recruiter demonstration guidance
+- ## 🚀 Live Demo
+
+[**Open Bengaluru Bites →**](https://bengaluru-bites-analytics-qhygjwhvwy56vswtup3jhn.streamlit.app/)
 
 ## Technology stack
 
