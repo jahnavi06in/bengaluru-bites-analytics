@@ -7,7 +7,7 @@ from typing import Callable
 import pandas as pd
 
 DEFAULT_MODELS = [
-    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
 ]
 
 SYSTEM_TEMPLATE = """You turn questions about Bengaluru restaurants into ONE SQLite query.
