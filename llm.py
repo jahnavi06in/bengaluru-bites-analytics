@@ -11,7 +11,7 @@ import pandas as pd
 
 
 # Fast model dedicated to converting natural-language questions into SQL.
-DEFAULT_MODEL = "gemini-3.5-flash-lite"
+DEFAULT_MODEL = "gemini-3.1-flash-lite"
 
 SYSTEM_TEMPLATE = """You are the SQL intelligence engine for Bengaluru Bites.
 
