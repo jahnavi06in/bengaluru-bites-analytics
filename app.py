@@ -221,7 +221,8 @@ elif nav=="Ask AI":
                 except SQLRejected as e: st.error(f"Safe-query check rejected the generated SQL: {e}")
                 except QueryError as e: st.error(f"Query could not be executed safely: {e}")
                 except LLMError as e: st.error(str(e))
-                except Exception: st.error("The AI operation failed. No fabricated result was shown."
+                except Exception:
+    st.error("The AI operation failed. No fabricated result was shown.")
 elif nav=="Data Quality":
     st.subheader("Data Quality Centre")
     report,dupes,issues,score=data_quality_report(filtered)
