@@ -7,9 +7,6 @@ from typing import Callable
 import pandas as pd
 
 DEFAULT_MODELS = [
-    "gemini-flash-latest",
-    "gemini-3.7-flash",
-    "gemini-3.6-flash",
     "gemini-2.5-flash",
 ]
 
